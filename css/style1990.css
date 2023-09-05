@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: blueviolet;
+    height: 15vh;
+}
+
+main {
+    width: 100%;
+    background-color: #008282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.elemento {
+    display: grid;
+    place-items: center;
+}
+
+.elemento a {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.icon_desktop {
+    height: 105px;
+    width: 220px;
+    background-color: #c0c0c0;
+    margin: 15px;
+}
+
+#esquerda {
+    flex: 20%;
+    display: grid;
+    place-items: center;
+}
+
+#direita {
+    flex: 80%;
+}
+
+#pop_up-office {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#office_img {
+    width: 486px;
+    height: 486px;
+}
+
+#botao_office {
+    margin: 10px;
+    background: (#C3C3C3);
+    box-shadow: 4px 4px 0px 0px #B1B1B1 inset, -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
+}
