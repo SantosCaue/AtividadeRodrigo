@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/w95fa');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+}
+
+header div.microversoes {
+    flex: 20%;
+    display: flex;
+    align-items: center;
+}
+
+header div.microversoes img {
+    width: 75%;
+    display: none;
+}
+
+header div.microversoes a {
+    width: 100%;
+    display: flex;
+}
+
+header div#microsoft70 img{
+    filter: invert(100%);
+}

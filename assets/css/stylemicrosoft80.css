@@ -1,0 +1,33 @@
+header{
+    background-color: #6666FF;
+}
+
+header div#microsoft80 img {
+    display: inline;
+}
+
+nav p.referenciador {
+    font-family: 'W95FA', sans-serif;
+    border-left: #000 solid 2px;
+    border-right: #000 solid 2px;
+    padding: 0 4px 0 4px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    align-items: flex-start;
+    border-left: #000 solid 6px;
+    border-right: #000 solid 6px;
+}
+
+main {
+    height: 85%;
+}
+
+section {
+    height: 100%;
+    border: #000 solid 6px;
+    border-top: #000 solid 2px;
+}
