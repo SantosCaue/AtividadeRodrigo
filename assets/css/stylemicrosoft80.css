@@ -1,4 +1,8 @@
-header{
+p{
+    font-family: 'W95FA', sans-serif;
+}
+
+header {
     background-color: #6666FF;
 }
 
@@ -6,10 +10,10 @@ header div#microsoft80 img {
     display: inline;
 }
 
-nav p.referenciador {
-    font-family: 'W95FA', sans-serif;
-    border-left: #000 solid 2px;
+
+nav a {
     border-right: #000 solid 2px;
+    text-decoration: none;
     padding: 0 4px 0 4px;
     margin: 0;
 }
@@ -30,4 +34,58 @@ section {
     height: 100%;
     border: #000 solid 6px;
     border-top: #000 solid 2px;
+}
+
+main section#Momento {
+    display: flex;
+    flex-direction: row;
+}
+
+#left,
+#right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+main section#Momento div#left{
+    display: flex;
+    flex-direction: column;
+}
+
+main section#Momento div#left img{
+    height: 100%;
+    width: 3.5em;
+    background-color: #000;
+    margin: 1em;
+}
+
+main section#Momento div#left a.topicos{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+main section#Momento div#left a.topicos p{
+    padding: 1em;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+main section#Momento div#right{
+    display: flex;
+    flex-direction: column;
+}
+
+main section#Momento div#right img{
+    width: 75%;
+}
+
+main section#Momento div#right p{
+    padding: 1em;
+    width: 75%;
+    text-align: justify;
+    background-color: yellow;
 }

@@ -22,7 +22,7 @@ header {
 
 header div.microversoes {
     flex: 20%;
-    display: flex;
+    display: flex;  
     align-items: center;
 }
 
