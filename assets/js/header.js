@@ -16,7 +16,7 @@ function multiCor() {
 }
 function resetHeader() {
     for (let n = 0; n < microversoes.length; n++) {
-        if (microversoes[n].id != window.location.pathname.split("/")[2].replace(/\.html/g, '')) {
+        if (microversoes[n].id != window.location.pathname.split("/")[window.location.pathname.split("/").length-1].replace(/\.html/g, '')) {
             microversoes[n].style.backgroundColor = "";
             microversoes[n].querySelectorAll("img")[0].style.display = "none";
         }
