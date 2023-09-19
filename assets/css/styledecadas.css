@@ -24,6 +24,7 @@ header div.microversoes {
     flex: 20%;
     display: flex;  
     align-items: center;
+
 }
 
 header div.microversoes img {
@@ -34,6 +35,8 @@ header div.microversoes img {
 header div.microversoes a {
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header div#microsoft70 img{
