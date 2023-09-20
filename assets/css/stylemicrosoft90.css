@@ -1,3 +1,12 @@
+:root {
+    --mono-100: #c3c3c3;
+}
+
+* {
+    font-family: 'W95FA', sans-serif;
+    margin: 0;
+}
+
 header{
     background-color: #D9D9D9;
 }
@@ -49,15 +58,110 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 38.75rem;
+    background: var(--mono-100, #C3C3C3);
+    box-shadow: -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
 }
 
 #office_img {
     width: 486px;
     height: 486px;
+    margin-top: 1rem;
+
+}
+
+#wordpad_icon {
+    padding: 7px;
+}
+
+#botao_office a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    font-family: 'W95FA', sans-serif;
+}
+
+#elementos_footer a {
+    text-decoration: none;
+    color: #000;
 }
 
 #botao_office {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: row;
     margin: 10px;
-    background: (#C3C3C3);
+    background-color: #C3C3C3;
     box-shadow: 4px 4px 0px 0px #B1B1B1 inset, -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
+}
+
+footer {
+    width: 100%;
+    background: var(--mono-100, #C3C3C3);
+    box-shadow: 2px 2px 0px 0px #F0F0F0 inset;
+    height: 4.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#elementos_footer {
+    flex: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+}
+
+#clock {
+    flex: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+#elementos_Clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 80px;
+    background: var(--mono-100, #C3C3C3);
+    box-shadow: 2px 2px 0px 0px #7E7E7E inset, -2px -2px 0px 0px #F0F0F0 inset;
+}
+
+#texto_Clock {
+    margin-right: 9px;
+}
+
+#elementos_footer div {
+    background: var(--mono-100, #C3C3C3);
+    box-shadow: 4px 4px 0px 0px #B1B1B1 inset, -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
+}
+
+.footer_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer_buttons p, img {
+    padding: 12px;
+}
+
+#start p, img {
+    padding: 12px;
 }

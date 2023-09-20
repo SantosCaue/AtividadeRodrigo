@@ -20,24 +20,22 @@
         height: 10%;
     }
 
-    header div.microversoes {
-        flex: 20%;
-        display: flex;  
-        align-items: center;
-    }
+header div.microversoes {
+    flex: 20%;
+    display: flex;  
+    align-items: center;
+}
 
     header div.microversoes img {
         height: 100%;
         display: none;  
     }
 
-    header div.microversoes a {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        padding: 1vw;
-    }
+header div.microversoes a {
+    width: 100%;
+    display: flex;
+}
 
-    header div#microsoft70 img{
-        filter: invert(100%);
-    }
+header div#microsoft70 img{
+    filter: invert(100%);
+}
