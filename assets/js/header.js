@@ -13,6 +13,9 @@ function multiCor() {
     for (let n = 0; n < microversoes.length; n++) {
         microversoes[n].querySelectorAll("img")[0].style.display = "inline";
     }
+    document.getElementById("menuLateral").style.display = "none";
+    document.getElementById("diminuirTamanho").style.display = "none";
+
 }
 function resetHeader() {
     for (let n = 0; n < microversoes.length; n++) {
@@ -21,4 +24,7 @@ function resetHeader() {
             microversoes[n].querySelectorAll("img")[0].style.display = "none";
         }
     }
+    document.getElementById("menuLateral").style.display = "block";
+    document.getElementById("diminuirTamanho").style.display = "block";
+
 }

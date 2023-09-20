@@ -1,41 +1,43 @@
-@import url('https://fonts.cdnfonts.com/css/w95fa');
+    @import url('https://fonts.cdnfonts.com/css/w95fa');
 
-* {
-    margin: 0 auto;
-    padding: 0 auto;
-    box-sizing: border-box;
-}
+    * {
+        margin: 0 auto;
+        padding: 0 auto;
+        box-sizing: border-box;
+    }
 
-html {
-    height: 100%;
-}
+    html {
+        height: 100%;
+    }
 
-body {
-    height: 100%;
-}
+    body {
+        height: 100%;
+    }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    height: 15%;
-}
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+    }
 
-header div.microversoes {
-    flex: 20%;
-    display: flex;  
-    align-items: center;
-}
+    header div.microversoes {
+        flex: 20%;
+        display: flex;  
+        align-items: center;
+    }
 
-header div.microversoes img {
-    width: 75%;
-    display: none;
-}
+    header div.microversoes img {
+        height: 100%;
+        display: none;  
+    }
 
-header div.microversoes a {
-    width: 100%;
-    display: flex;
-}
+    header div.microversoes a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 1vw;
+    }
 
-header div#microsoft70 img{
-    filter: invert(100%);
-}
+    header div#microsoft70 img{
+        filter: invert(100%);
+    }

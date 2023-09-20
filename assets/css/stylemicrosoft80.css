@@ -10,6 +10,15 @@ header div#microsoft80 img {
     display: inline;
 }
 
+header img#menuLateral{
+    border:#000 2px solid;
+    border-left: 6px solid #000;
+}
+
+header img#diminuirTamanho{
+    border:#000 2px solid;
+    border-right: 6px solid #000;
+}
 
 nav a {
     border-right: #000 solid 2px;
