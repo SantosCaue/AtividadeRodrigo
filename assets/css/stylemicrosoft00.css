@@ -1,0 +1,40 @@
+section#fakeheader{
+    background-color: #0053e7
+}
+
+p,h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 1px black;
+}
+
+main{
+    background-image: url(../imgs/windowsXPbg.jpg);
+    background-size: cover;
+    background-position:bottom;
+    display: grid;
+    height: 83%;
+    grid-template: repeat(5, 20%)/ 30% repeat(9, 1fr);
+    align-items: center;
+}
+a.icones{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    grid-column: 1/2;
+    width: 100%;
+}
+
+
+p.eventos{
+    margin: 0;
+    grid-row-start: 1;
+    grid-row-end: span 5;
+    grid-column-start: 2;
+    flex: 70%;
+}
+
+footer{
+    height: 7%;
+    width: 100%;
+}
