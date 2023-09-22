@@ -17,7 +17,7 @@ header div#microsoft90 img {
 
 main {
     width: 100%;
-    height: calc(100% - (10% + 4.95rem));
+    height: calc(100% - (10% + 7vh));
     background-color: #008282;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ main {
 
 .icon_desktop {
     background-color: #c0c0c0;
-    margin: 15px;
+    
 }
 
 .icon_desktop img {
@@ -104,7 +104,6 @@ footer {
     width: 100%;
     background: var(--mono-100, #C3C3C3);
     box-shadow: 2px 2px 0px 0px #F0F0F0 inset;
-    height: 4.95rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,34 +111,24 @@ footer {
 }
 
 #elementos_footer {
-    flex: 70%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: left;
-
-}
-
-#clock {
-    flex: 30%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-}
-
-#elementos_Clock {
-    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    margin-right: 80px;
-    background: var(--mono-100, #C3C3C3);
-    box-shadow: 2px 2px 0px 0px #7E7E7E inset, -2px -2px 0px 0px #F0F0F0 inset;
 }
 
-#texto_Clock {
-    margin-right: 9px;
+.footer_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #elementos_footer div {
@@ -147,24 +136,3 @@ footer {
     box-shadow: 4px 4px 0px 0px #B1B1B1 inset, -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
 }
 
-.footer_buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-#start {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.footer_buttons p, img {
-    padding: 12px;
-}
-
-#start p, img {
-    padding: 12px;
-}
