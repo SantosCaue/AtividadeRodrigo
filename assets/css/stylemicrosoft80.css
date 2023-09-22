@@ -128,6 +128,59 @@ h2{
     background-color: #000;
     color: white;
 }
-#Batalha img{
-    width: 20%;
+
+#apple{
+    display: flex;
+    align-items: center;
+    height: calc(100% - (1.6875em + 0.5vh));
 }
+
+#Batalha div div{
+    flex: 60%;
+}
+
+#TextoApple{
+    width: 75%;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+}
+
+#Batalha img{
+    width: 60%;
+}
+
+#Batalha figcaption{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 40%;
+}
+
+#conteudo{
+    height: calc(100% - (1.6875em + 0.5vh));
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#LadoIBM, #LadoMS{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.LogoMarca{
+    width: 80%;
+}
+
+.LogoMarca img{
+    width: 100%;
+}
+
+.TextoMarca p{
+    width: 75%;
+}
+
