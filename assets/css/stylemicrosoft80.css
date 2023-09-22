@@ -2,22 +2,40 @@ p, h2{
     font-family: 'W95FA', sans-serif;
 }
 
-header {
-    background-color: #6666FF;
+section#fakeheader{
+    background-color: #6666ff;
+    border: none;
+    display: flex;
+}
+div#diminuirtamanho{
+    flex: 20%;
 }
 
-header div#microsoft80 img {
-    display: inline;
+
+div#logoMicro{
+    display: flex;
+    align-items: center;
+    flex: 20%;
+    
+}
+div#logoMicro img{
+    width: 80%;
+}
+div#menuLateral{
+    text-align: right;
+    flex: 60%;
+}
+div#menuLateral img, div#diminuirtamanho img{
+    height: 100%;
+    border: #000 2px solid;
 }
 
-header img#menuLateral{
-    border:#000 2px solid;
-    border-left: 6px solid #000;
-}
-
-header img#diminuirTamanho{
-    border:#000 2px solid;
+div#menuLateral img{
     border-right: 6px solid #000;
+}
+
+div#diminuirtamanho img{
+    border-left: 6px solid #000;
 }
 
 nav a {
@@ -36,7 +54,7 @@ nav {
 }
 
 main {
-    height: 85%;
+    height: 90%;
 }
 
 section {
