@@ -6,13 +6,10 @@
         box-sizing: border-box;
     }
 
-    html {
+    html, body {
         height: 100%;
     }
 
-    body {
-        height: 100%;
-    }
 
     header {
         display: flex;
@@ -22,13 +19,13 @@
 
     header div.microversoes {
         flex: 20%;
-        display: flex;  
+        display: flex;
         align-items: center;
     }
 
     header div.microversoes img {
         height: 100%;
-        display: none;  
+        display: none;
     }
 
     header div.microversoes a {
@@ -36,8 +33,10 @@
         width: 100%;
         display: flex;
         padding: 1vw;
+        align-items: center;
+        justify-content: center;
     }
 
-    header div#microsoft70 img{
+    header div#microsoft70 img {
         filter: invert(100%);
     }
