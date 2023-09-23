@@ -18,6 +18,7 @@
         display: none;
         flex-direction: row;
     }
+    
     header a{
         flex: 1;
         display: flex;

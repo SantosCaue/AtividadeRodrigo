@@ -11,35 +11,38 @@ section#fakeheader{
     background-color: #c0c0c0;
 }
 
+body {
+    background-color: #008282;
+}
+
+#win95Logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
 main {
     width: 100%;
-    height: calc(100% - (10% + 7vh));
     background-color: #008282;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .elemento {
     display: grid;
     place-items: center;
+    margin: 10px;
 }
 
 .elemento a {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    color: #000;
-}
-
-.icon_desktop {
-    background-color: #c0c0c0;
-    
-}
-
-.icon_desktop img {
-    width: 100%;
+    color: #fff;
 }
 
 #esquerda {
@@ -60,13 +63,6 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 39vw;
-    background: var(--mono-100, #C3C3C3);
-    box-shadow: -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
-}
-
-#office_img {
-    width: 75%;
-    margin-top: 1rem;
 }
 
 #wordpad_icon {
@@ -94,6 +90,7 @@ main {
     margin: 10px;
     background-color: #C3C3C3;
     box-shadow: 4px 4px 0px 0px #B1B1B1 inset, -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
+    display: none;
 }
 
 footer {
@@ -104,6 +101,10 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
 }
 
 #elementos_footer {
@@ -113,11 +114,20 @@ footer {
     justify-content: center;
 }
 
-.footer_buttons {
+.footer_buttons, #clock, #elementos_Clock {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.footer_buttons, #start {
+    margin: 0.2rem 0.5rem 0.2rem 0.5rem;
+
+}
+
+.footer_buttons p, #start p, .footer_buttons img, #start img {
+    padding: 8px;
 }
 
 #start {
@@ -132,3 +142,54 @@ footer {
     box-shadow: 4px 4px 0px 0px #B1B1B1 inset, -4px -4px 0px 0px #7E7E7E inset, 2px 2px 0px 0px #F0F0F0 inset, -2px -2px 0px 0px #262626 inset;
 }
 
+#direita_footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+}
+
+#esquerda_footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex: 1;
+}
+
+#esquerda_footer p, #direita_footer p {
+    white-space: nowrap;
+}
+
+
+#clock {
+    background: var(--mono-100, #C3C3C3);
+    box-shadow: 2px 2px 0px 0px #7E7E7E inset, -2px -2px 0px 0px #F0F0F0 inset;
+    margin-right: 50px;
+}
+
+#clock p, #clock img {
+    padding: 8px;
+}
+
+#area_main {
+    width: 100%;
+    height: calc(100vh - (10vh + 7vh));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#area_secoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secoes {
+    box-sizing: border-box;
+    width: 93vw;
+    height: 93vh;
+    border: solid white 2px;
+}

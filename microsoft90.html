@@ -10,100 +10,105 @@
 </head>
 
 <body id="Start">
+    <img id="win95Logo" src="assets/imgs/win95Logo.png" alt="">
     <section id="fakeheader" onmouseover="header()"></section>
-    <header onmouseleave="desheader()">
+    <header id="headerJS" onmouseleave="desheader()">
         <a href="microsoft70.html" id="anos70"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1975).png" alt=""></a>
         <a href="microsoft80.html" id="anos80"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1982).svg.png" alt=""></a>
         <a href="microsoft90.html" id="anos90"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1987).svg.png" alt=""></a>
         <a href="microsoft00.html" id="anos00"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1987).svg.png" alt=""></a>
         <a href="microsoft10.html" id="anos10"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(2012).webp" alt=""></a>
     </header>
-    <main>
-        <section id="esquerda">
-            <div class="elemento">
-                <a href="#">
-                    <div class="icon_desktop"><img src="assets/imgs/placeholder12.svg" alt=""></div>
-                    <p>PLACEHOLDER</p>
-                </a>
-            </div>
-            <div class="elemento">
-                <a href="#">
-                    <div class="icon_desktop"><img src="assets/imgs/placeholder12.svg" alt=""></div>
-                    <p>PLACEHOLDER</p>
-                </a>
-            </div>
-            <div class="elemento">
-                <a href="#">
-                    <div class="icon_desktop"><img src="assets/imgs/placeholder12.svg" alt=""></div>
-                    <p>PLACEHOLDER</p>
-                </a>
-            </div>
-            <div class="elemento">
-                <a href="#">
-                    <div class="icon_desktop"><img src="assets/imgs/placeholder12.svg" alt=""></div>
-                    <p>PLACEHOLDER</p>
-                </a>
-            </div>
+    <main id="mainJS">
+        <section id="area_main">
+            <section id="esquerda">
+                <div class="elemento">
+                    <a href="#" onclick="appAberto('assets/imgs/desligarAberto.svg')">
+                        <div class="icon_desktop"><img src="assets/imgs/desligarDesktop.svg" alt=""></div>
+                        <p>Desligar</p>
+                    </a>
+                </div>
+                <div class="elemento">
+                    <a href="#" onclick="appAberto('assets/imgs/Office_95_and_97_logo.svg')">
+                        <div class="icon_desktop"><img src="assets/imgs/officeDesktop.svg" alt=""></div>
+                        <p>Microsoft Office</p>
+                    </a>
+                </div>
+                <div class="elemento">
+                    <a href="#" onclick="appAberto('assets/imgs/calculadoraAberta.svg')">
+                        <div class="icon_desktop"><img src="assets/imgs/calculadoraDesktop.svg" alt=""></div>
+                        <p>Calculadora</p>
+                    </a>
+                </div>
+                <div class="elemento">
+                    <a href="#" onclick="appAberto('assets/imgs/computadorAberto.svg')">
+                        <div class="icon_desktop"><img src="assets/imgs/computadorDesktop.svg" alt=""></div>
+                        <p>Meu Computador</p>
+                    </a>
+                </div>
+            </section>
+            <section id="direita">
+                <div id="pop_up-office">
+                    <img id="office_img" src="">
+                    <img src="" usemap="">
+                    <map name="image-map">
+                        <area onclick="funcaosim()" coords="150,340,149,390,299,391,298,340" shape="poly">
+                        <area onclick="funcaonao()" coords="324,344,468,342,468,388,322,387" shape="poly">
+                    </map>
+                    <button id="botao_office">
+                        <img id="wordpad_icon" src="assets/imgs/icon-wordpad.svg" alt="">
+                        <a href="#">Novo Microsoft Office</a>
+                    </button>
+                </div>
+            </section>
         </section>
-        <section id="direita">
-            <div id="pop_up-office">
-                <img id="office_img" src="assets/imgs/Office_95_and_97_logo.svg" alt="Logotipo do Microsoft Office 1995">
-                <button id="botao_office">
-                    <img id="wordpad_icon" src="assets/imgs/icon-wordpad.svg" alt="">
-                    <a href="#">Novo Microsoft Office</a>
-                </button>
-            </div>
-        </section>
-        <section id="DOS">
+        <section id="area_secoes">
+            <section class="secoes" id="DOS">
 
-        </section>
-        <section id="new_Office">
-
-        </section>
-        <section id="new_Access">
-
-        </section>
-        <section id="Explorer">
-            
+            </section>
+            <section class="secoes" id="new_Office">
+    
+            </section>
+            <section class="secoes" id="Explorer">
+                
+            </section>
         </section>
     </main>
-    <footer>
-        <div id="elementos_footer">
-            <a href="#Start">
-                <div id="start">
-                    <img src="assets/imgs/Small Icons.svg" alt="">
-                    <p>Start</p>
-                </div>
-            </a>
-            <a href="#DOS">
-                <div class="footer_buttons">
-                    <img src="assets/imgs/Icon=MS-DOS.svg" alt="">
-                    <p>DOS</p>
-                </div>
-            </a>
-            <a href="#new_Office">
-                <div class="footer_buttons">
-                    <img src="assets/imgs/icon-wordpad.svg" alt="">
-                    <p>Novo Microsoft Office</p>
-                </div>
-            </a>
-            <a href="#new_Access">
-                <div class="footer_buttons">
-                    <img src="assets/imgs/access95icon.svg" alt="">
-                    <p>Microsoft Access</p>
-                </div>
-            </a>
-            <a href="#Explorer">
-                <div class="footer_buttons">
-                    <img src="assets/imgs/internet-explorer.svg" alt="">
-                    <p>Internet Explorer</p>
-                </div>
-            </a>
+    <footer id="footerJS">
+        <div id="esquerda_footer">
+            <div id="elementos_footer">
+                <a href="#Start">
+                    <div id="start">
+                        <img src="assets/imgs/Small Icons.svg" alt="">
+                        <p>Start</p>
+                    </div>
+                </a>
+                <a href="#DOS">
+                    <div class="footer_buttons">
+                        <img src="assets/imgs/informacao80.svg" alt="">
+                        <p>Acordo com a Apple</p>
+                    </div>
+                </a>
+                <a href="#new_Office">
+                    <div class="footer_buttons">
+                        <img src="assets/imgs/informacao80.svg" alt="">
+                        <p>Lançamento Microsoft Office</p>
+                    </div>
+                </a>
+                <a href="#Explorer">
+                    <div class="footer_buttons">
+                        <img src="assets/imgs/informacao80.svg" alt="">
+                        <p>Internet Explorer</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div id="clock">
-            <div id="elementos_Clock">
-                <img src="assets/imgs/Icon=Volume.svg" alt="">
-                <p id="texto_Clock"></p>
+        <div id="direita_footer">
+            <div id="clock">
+                <div id="elementos_Clock">
+                    <img src="assets/imgs/Icon=Volume.svg" alt="">
+                    <p id="texto_Clock"></p>
+                </div>
             </div>
         </div>
     </footer>
