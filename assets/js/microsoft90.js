@@ -65,3 +65,7 @@ function funcaosim() {
 function funcaonao() {
   document.getElementById("office_img").src = "";
 }
+
+function footerselect() {
+  
+}
