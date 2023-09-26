@@ -9,38 +9,140 @@
     <title>Microsoft Lore</title>
 </head>
 
-<body id="Start">
-    <section id="fakeheader" onmouseover="header()"></section>
+<body>
+    <section id="fakeheader" onmouseover="header()">
+        <div><img src="assets/imgs/Microsoft_logo_(1987).svg.png"></div>
+    </section>
     <header onmouseleave="desheader()">
-        <a href="microsoft70.html" id="anos70"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1975).png" alt=""></a>
-        <a href="microsoft80.html" id="anos80"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1982).svg.png" alt=""></a>
-        <a href="microsoft90.html" id="anos90"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1987).svg.png" alt=""></a>
-        <a href="microsoft00.html" id="anos00"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1987).svg.png" alt=""></a>
-        <a href="microsoft10.html" id="anos10"><img src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(2012).webp" alt=""></a>
+        <a href="microsoft70.html" id="anos70"><img
+                src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1975).png" alt=""></a>
+        <a href="microsoft80.html" id="anos80"><img
+                src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1982).svg.png"
+                alt=""></a>
+        <a href="microsoft90.html" id="anos90"><img
+                src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1987).svg.png"
+                alt=""></a>
+        <a href="microsoft00.html" id="anos00"><img
+                src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(1987).svg.png"
+                alt=""></a>
+        <a href="microsoft10.html" id="anos10"><img
+                src="https://santoscaue.github.io/AtividadeRodrigo/assets/imgs/Microsoft_logo_(2012).webp" alt=""></a>
     </header>
-    <main>
-        <a href="" class="icones"><img src="assets/imgs/irprops.cpl_14_160-8.png"> <p>Windows ME, XP, Vista e 7</p></a>
-        <a href="" class="icones"><img src="assets/imgs/explorer.exe_14_108-6.png"> <p>Place Holder</p></a>
-        <a href="" class="icones"><img src="assets/imgs/explorer.exe_14_101-3.png"> <p>Place Holder</p></a>
-        <a href="" class="icones"><img src="assets/imgs/icwconn1.exe_14_201-2.png"> <p>Place Holder</p></a>
-        <a href="" class="icones"><img src="assets/imgs/joy.cpl_14_102-3.png"> <p>Place Holder</p></a>
-        <div class="eventos">
-            
+    <main id="main">
+        <div id="principal">
+            <a href="#Windows" class="icones" onclick="aparecerJanela('Windows')"><img
+                    src="assets/imgs/irprops.cpl_14_160-8.png">
+                <p>Windows ME, XP, Vista e 7</p>
+            </a>
+            <a href="#Bill" class="icones" onclick="aparecerJanela('Bill')"><img src="assets/imgs/explorer.exe_14_108-6.png">
+                <p>Aposentadoria do Bill Gates</p>
+            </a>
+            <a href="#A" class="icones" onclick="aparecerJanela('A')"><img src="assets/imgs/explorer.exe_14_101-3.png">
+                <p>Processo jurídico</p>
+            </a>
+            <a href="#Azure" class="icones" onclick="aparecerJanela('Azure')"><img
+                    src="assets/imgs/icwconn1.exe_14_201-2.png">
+                <p>Azure</p>
+            </a>
+            <a href="#Xbox" class="icones" onclick="aparecerJanela('Xbox')"><img src="assets/imgs/joy.cpl_14_102-3.png">
+                <p>Lançamento do XBOX</p>
+            </a>
         </div>
-        <div class="eventos">
-            <p></p>
-        </div>
-        <div class="eventos">
-            <p></p>
-        </div>
-        <div class="eventos">
-            <p></p>
-        </div>
-        <div class="eventos">
-            <p></p>
-        </div>
+        <section id="Windows" class="aplicativos">
+            <div class="painel">
+                <div class="menus">
+                    <span onclick='fechar()'><i class='bi bi-dash'></i></span>
+                    <span><i class='bi bi-fullscreen' style='font-size: 0.8em;'></i></span>
+                    <span onclick='fechar()' style='background-color: #a85d6f;'><i class='bi bi-x'></i></span>
+                </div>
+            </div>
+            <div class="cinza">
+                <h2>Microsoft Anuncia a mais nova versão do Windows</h2>
+            </div>
+            <div class="conteudo">
+            </div>
+        </section>
+        <section id="Bill" class="aplicativos">
+            <div class="painel">
+                <div class="menus">
+                    <span onclick='fechar()'><i class='bi bi-dash'></i></span>
+                    <span><i class='bi bi-fullscreen' style='font-size: 0.8em;'></i></span>
+                    <span onclick='fechar()' style='background-color: #a85d6f;'><i class='bi bi-x'></i></span>
+                </div>
+            </div>
+            <div class="cinza">
+                <h2>Bill Gates se afasta da Microsoft</h2>
+            </div>
+            <div class="conteudo">
+                <img src="assets/imgs/bill-gates-waving.webp">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae qui architecto corporis qu</p>
+            </div>
+        </section>
+        <section id="A" class="aplicativos">
+            <div class="painel">
+                <div class="menus">
+                    <span onclick='fechar()'><i class='bi bi-dash'></i></span>
+                    <span><i class='bi bi-fullscreen' style='font-size: 0.8em;'></i></span>
+                    <span onclick='fechar()' style='background-color: #a85d6f;'><i class='bi bi-x'></i></span>
+                </div>
+            </div>
+            <div class="cinza">
+                <h2>United States v. Microsoft Corporation</h2>
+            </div>
+            <div class="conteudo">
+                <img src="assets/imgs/US_v._Microsoft_Bill_Gates_Color.png">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo reprehenderit modi laboriosam. Deleniti nam pariatur quibusdam quasi, laborum voluptas voluptatem dicta nostrum fugit quod ea delectus quis soluta eum porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quidem quis a, eligendi qui itaque cum suscipit cumque. Necessitatibus, autem esse totam labore at possimus minima neque provident quam reiciendis.</p>
+            </div>
+        </section>
+        <section id="Azure" class="aplicativos">
+            <div class="painel">
+                <div class="menus">
+                    <span onclick='fechar()'><i class='bi bi-dash'></i></span>
+                    <span><i class='bi bi-fullscreen' style='font-size: 0.8em;'></i></span>
+                    <span onclick='fechar()' style='background-color: #a85d6f;'><i class='bi bi-x'></i></span>
+                </div>
+            </div>
+            <div class="cinza">
+                <h2>Microsoft Anuncia o Azure</h2>
+            </div>
+            <div class="conteudo">
+                <img src="assets/imgs/presentation_azure.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus debitis maiores libero esse, illum
+                    reprehenderit inventore est nemo tempore vel ut modi! Dolor quam molestiae recusandae vitae
+                    aspernatur? Aliquam, ex! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magnam
+                    voluptates et cumque dicta aliquam hic rerum eum quod expedita veniam, ullam optio mollitia vero
+                    fuga doloribus beatae blanditiis. Similique.</p>
+            </div>
+        </section>
+        <section id="Xbox" class="aplicativos">
+            <div class="painel">
+                <div class="menus"><span onclick='fechar()'><i class='bi bi-dash'></i></span>
+                    <span><i class='bi bi-fullscreen' style='font-size: 0.8em;'></i></span></span>
+                    <span onclick='fechar()' style='background-color: #a85d6f;'><i class='bi bi-x'></i></span>
+                </div>
+            </div>
+            <div class="cinza">
+                <h2>Microsoft Lança seu próprio console o XBOX</h2>
+            </div>
+            <div class="conteudo">
+                <img src="assets/imgs/BillGatesXbox.gif">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti nam nesciunt consequuntur
+                    blanditiis voluptatem voluptas perspiciatis dolorem, velit dignissimos est, ipsam placeat, amet
+                    sapiente tenetur hic! Eveniet velit iusto modi! Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Expedita ducimus beatae corrupti esse quibusdam, animi recusandae quo aliquam dolore
+                    necessitatibus culpa fugit eligendi sint quia laudantium amet saepe excepturi! Possimus.</p>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div id="start" onclick="window.location.replace('index.html')">
+                <img src="assets/imgs/windowsxplogo.png">
+                <p><i>start</i></p>
+    </div>
+
+    </footer>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/microsoft00.js"></script>
 </body>
-<script src="assets/js/header.js"></script>
+
 </html>
