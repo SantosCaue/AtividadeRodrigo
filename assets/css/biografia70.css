@@ -1,0 +1,14 @@
+p,h1{
+    color: white;
+	font-family: Consolas,monaco,monospace; 
+}
+h1{
+    text-align: left;
+    margin: 0;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    border-bottom: solid white;
+}
+main,body{
+    background-color: black;
+}

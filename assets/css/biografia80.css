@@ -1,0 +1,21 @@
+p,h1{
+    color: black;
+    font-family: 'W95FA', sans-serif;
+}
+
+p{
+    background-color: yellow;
+    padding: 1em;
+}
+
+h1{
+    text-align: left;
+    margin: 0;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    border-bottom: solid black;
+}
+
+#fakeheader{
+    background-color: #6666ff;
+}

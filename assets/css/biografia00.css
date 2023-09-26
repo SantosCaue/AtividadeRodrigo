@@ -1,0 +1,31 @@
+h1{
+    background-color: #efede0;
+    color:black;
+    font-family: Tahoma;
+
+}
+p{
+    color: black;
+    font-family: Tahoma;
+}
+
+p{
+    padding: 1em;
+}
+
+h1{
+    text-align: left;
+    margin: 0;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+
+#fakeheader{
+    background-color: #7a96df;
+}
+
+main {
+border: 4px solid #7a96df;
+background-color: #fff;
+
+}
