@@ -2,6 +2,8 @@
 
 * {
     font-family: 'VT323', monospace;
+    color: #fff;
+    text-decoration: none;
 }
 
 #comandos p {
@@ -27,6 +29,6 @@ label {
     font-size: 1.5rem;
 }
 
-#FUNDACAO, #APPLE, #ALTAIR, #APP, #HELP {
+#resposta {
     display: none;
 }
