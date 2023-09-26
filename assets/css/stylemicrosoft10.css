@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-wp');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe WP', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#containerTudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 87%;
+}
+
+#esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 85%;
+}
+
+#direita {
+    flex: 15%;
+}
+
+#cima, #baixo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#cima1 {
+    display: grid;
+    place-items: center;
+    background-color: #00b1ee;
+}
+
+.imagens {
+    width: 75%;
+}
+
+#cima1, #baixo2 {
+    flex: 70%;
+}
+
+#cima2, #baixo1 {
+    flex: 30%;
+}
