@@ -1,15 +1,15 @@
-    @import url('https://fonts.cdnfonts.com/css/w95fa');
+@import url('https://fonts.cdnfonts.com/css/w95fa');
 
-    * {
-        margin: 0 auto;
-        padding: 0 auto;
-        box-sizing: border-box;
-    }
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
 
-    html, body {
-        scroll-behavior: smooth;
-        height: 100%;
-    }
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+}
 
     header {
         width: 100%;
@@ -40,3 +40,12 @@
     a#anos90{background-color: #d9d9d9;}
     a#anos00{background-color: #7a96df;}
     a#anos10{background-color: #c5d9eb;}
+    
+    .animation {
+        animation: animation 1s;
+    }
+    
+    @keyframes animation {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
