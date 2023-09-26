@@ -194,3 +194,12 @@ main {
 #xboxGames {
     width: 90%;
 }
+#fakeheader {
+    align-items: center;
+    justify-content: center;
+}
+
+
+#fakeheader img {
+    height: 80%;
+}

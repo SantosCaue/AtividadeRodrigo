@@ -24,6 +24,10 @@ main {
     font-size: 1.5rem;
 }
 
+#fakeheader img{
+    filter: invert(100%);
+}
+
 label {
     color: #fff;
     font-size: 1.5rem;
