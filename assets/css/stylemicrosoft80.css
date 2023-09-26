@@ -92,6 +92,7 @@ main section#Momento div#left a.topicos{
     text-decoration: none;
     display: flex;
     align-items: center;
+    width: 30%;
 }
 
 main section#Momento div#left a.topicos p{
@@ -99,6 +100,7 @@ main section#Momento div#left a.topicos p{
     display: flex;
     background-color: black;
     color: white;
+    width: 100%;
 }
 
 main section#Momento div#right{
