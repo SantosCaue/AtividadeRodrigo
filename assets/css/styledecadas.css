@@ -49,3 +49,8 @@ html, body {
         from {opacity: 0;}
         to {opacity: 1;}
     }
+
+a#link{
+    text-decoration: none;
+    color: blue;
+}
