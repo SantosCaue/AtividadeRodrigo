@@ -15,7 +15,15 @@ h1{
     margin-bottom: 1vh;
     border-bottom: solid black;
 }
-
+#Imagem{
+    background-color: yellow;
+}
 #fakeheader{
     background-color: #6666ff;
+}
+#fakeheader{
+    align-items: center;
+    }
+#fakeheader img{
+        height:80%;
 }
