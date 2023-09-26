@@ -15,8 +15,11 @@ div#Cima{
 }
 div#textoUp{
     flex: 70%;
-}
 
+}
+div#textoUp p{
+    height: 100%;
+}
 div#textoUp p, div#Baixo p{
     margin-left: 5vw;
 }
@@ -28,8 +31,10 @@ div#Baixo p{
 div#Imagem{
     display: flex;
     flex: 30%;
-    justify-content: spa;
+    justify-content: space-around;
+    margin-right: 5vw;
 }
+
 div#Baixo{
     display: flex;
     width: 100%;

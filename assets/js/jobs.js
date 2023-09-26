@@ -11,21 +11,21 @@ function getCookie(name) {
 if(getCookie("decada") == 'anos70'){
     document.getElementById("cssdec").href = "assets/css/biografia70";
     document.getElementById("logomicrosoftbio").src = "assets/imgs/Microsoft_Logo_(1975).png";
-    document.getElementById("Imagem").src = "jobs1";
+    document.getElementById("Imagem").src = "assets/imgs/jobs1.jpeg";
 }else if(getCookie("decada") == 'anos80'){
     document.getElementById("cssdec").href = "assets/css/biografia80";
     document.getElementById("logomicrosoftbio").src = "assets/imgs/Microsoft_Logo_(1982).png";
-    document.getElementById("Imagem").src = "jobs2";
+    document.getElementById("Imagem").src = "assets/imgs/jobs2.jpeg";
 }else if(getCookie("decada") == 'anos90'){
     document.getElementById("cssdec").href = "assets/css/biografia90";
     document.getElementById("logomicrosoftbio").src = "assets/imgs/Microsoft_Logo_(1987).png";
-    document.getElementById("Imagem").src = "jobs3";
+    document.getElementById("Imagem").src = "assets/imgs/jobs3.jpeg";
 }else if(getCookie("decada") == 'anos00'){
     document.getElementById("cssdec").href = "assets/css/biografia00";
     document.getElementById("logomicrosoftbio").src = "assets/imgs/Microsoft_Logo_(1987).png";
-    document.getElementById("Imagem").src = "jobs4";
+    document.getElementById("Imagem").src = "assets/imgs/jobs4.jpeg";
 }else if(getCookie("decada") == 'anos10'){
     document.getElementById("cssdec").href = "assets/css/biografia10";
     document.getElementById("logomicrosoftbio").src = "assets/imgs/Microsoft_Logo_(2012).png";
-    document.getElementById("Imagem").src = "jobs5";
+    document.getElementById("Imagem").src = "assets/imgs/jobs5.jpeg";
 }

@@ -3,7 +3,9 @@ h1{
     font-family: 'W95FA', sans-serif;
 
 }
-
+#Imagem{
+    background-color: #c3c3c3;
+}
 p{
     color: black;
     font-family: 'W95FA', sans-serif;
@@ -31,4 +33,7 @@ main, #fakeheader{
 #fakeheader img{
         height:80%;
         filter: invert(100%);
+}
+main img{
+    height: 60vh;
 }
