@@ -49,18 +49,29 @@
                     <span onclick='fechar()' style='background-color: #a85d6f;'><i class='bi bi-x'></i></span>
                 </div>
             </div>
-            <section id="zinho_desk">
-                <a id="controleCarro" onclick="controleBack()"></a>
-                <div id="conteudoCarro">
-                    <img src="assets/imgs/WindowsME.png">                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni, dolores quis nobis doloremque tempore, sequi beatae voluptate ratione reiciendis atque, corrupti suscipit quos voluptatibus iste sint facilis quia officia?</p>
-                </div>
-                <a id="controleCarro" onclick="controleNext()"></a>
-            </section>
             <div class="cinza">
-                <h2>Microsoft Anuncia a mais nova versão do Windows</h2>
+                <h2>As versões do Windows</h2>
             </div>
             <div class="conteudo">
+                <span onclick="voltar()"><i class="bi bi-arrow-left"></i></span>
+                <div id="me" class="versoes"><img src="assets/imgs/WindowsME.png">
+                    <p> O Windows Millennium Edition (Windows Me) foi um sistema operacional lançado pela Microsoft em setembro de 2000. Foi uma tentativa de melhorar a estabilidade e a usabilidade em comparação com seu antecessor, o Windows 98. No entanto, o Windows Me foi amplamente criticado por sua instabilidade e problemas de compatibilidade de hardware e software.</p>
+                </div>
+                <div id="xp" class="versoes"><img src="assets/imgs/xp_desktop.jpg">
+                    <p>O Windows XP, lançado em outubro de 2001 pela Microsoft, foi um marco significativo na história dos sistemas operacionais. Ele unificou a linha de sistemas baseados no kernel NT, combinando a estabilidade do Windows 2000 com a facilidade de uso do Windows Me. O XP foi elogiado por sua interface mais moderna, funcionalidades aprimoradas e maior segurança em comparação com suas versões anteriores.
+
+                    </p>
+                </div>
+                <div id="vista" class="versoes"><img src="assets/imgs/vistawin.jpeg">
+                    <p>O Windows Vista foi lançado pela Microsoft em janeiro de 2007, sucedendo o Windows XP. Este sistema operacional trouxe uma interface renovada e melhorias em termos de gráficos e recursos visuais. Introduziu o Aero, um novo design estético e uma experiência mais moderna para os usuários.
+                    </p>
+                </div>
+                <div id="win7" class="versoes"><img src="assets/imgs/windows7desktop.jpeg">
+                    <p>
+                        O Windows 7, lançado em outubro de 2009, foi um sucesso notável para a Microsoft, sucedendo o Windows Vista. Este sistema operacional trouxe uma experiência mais refinada e estável, corrigindo muitas das críticas enfrentadas pelo Vista. Apresentava uma interface aprimorada, integração mais eficiente de hardware e uma maior facilidade de uso
+                    </p>
+                </div>
+                <span onclick="prox()"><i class="bi bi-arrow-right"></i></span>
             </div>
         </section>
         <section id="Bill" class="aplicativos">
@@ -76,7 +87,8 @@
             </div>
             <div class="conteudo">
                 <img src="assets/imgs/bill-gates-waving.webp">
-                <p>Em 2007, <a href="Bill Gates.html" id="link">Bill Gates</a> anunciou seu afastamento da empresa que ajudou a criar. Gates decidiu deixar seu
+                <p>Em 2007, <a href="Bill Gates.html" id="link">Bill Gates</a> anunciou seu afastamento da empresa que
+                    ajudou a criar. Gates decidiu deixar seu
                     cargo diário na Microsoft para se concentrar mais em seu trabalho filantrópico pela Bill & Melinda
                     Gates Foundation. Essa mudança estratégica marcou uma transição significativa para a Microsoft e
                     para Gates pessoalmente.</p>
