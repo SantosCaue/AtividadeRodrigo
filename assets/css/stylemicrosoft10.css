@@ -40,6 +40,12 @@ main {
     flex-direction: row;
 }
 
+#baixo1, #cima1, #cima2, #baixo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #cima1 {
     display: grid;
     place-items: center;
@@ -47,7 +53,7 @@ main {
 }
 
 .imagens {
-    width: 75%;
+    width: 50%;
 }
 
 #cima1, #baixo2 {

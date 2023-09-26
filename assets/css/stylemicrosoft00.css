@@ -171,3 +171,9 @@ p#texto_clock{
     font-size: 2em;
 }
 
+#zinho_desk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
