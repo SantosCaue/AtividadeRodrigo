@@ -14,8 +14,12 @@
 
 section#fakeheader{
     background-color: #c0c0c0;
+    align-items: center;
+    justify-content: center;
 }
-
+#fakeheader img{
+    height: 80%;
+}
 body {
     background-color: #008282;
 }
