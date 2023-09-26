@@ -142,3 +142,55 @@ main {
 #area2 {
     margin-bottom: 4rem;
 }
+
+#zinho_desk {
+    width: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.carrossel_item_desk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 25px;
+}
+
+.esquerdaCor {
+    flex: 40%;
+    background-color: #c3e1ff;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.direitaImagem {
+    background-color: #d6d7f3;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    flex: 60%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direitaImagem img {
+    width: 80%;
+}
+
+.esquerdaCor p {
+    font-size: 1.1rem;
+    padding: 8px;
+}
+
+#xboxGames {
+    width: 90%;
+}
