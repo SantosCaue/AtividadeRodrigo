@@ -25,3 +25,10 @@ h1{
 main, #fakeheader{
     background-color: #008282;
 }
+#fakeheader{
+    align-items: center;
+    }
+#fakeheader img{
+        height:80%;
+        filter: invert(100%);
+}

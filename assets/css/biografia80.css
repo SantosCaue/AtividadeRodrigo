@@ -19,3 +19,9 @@ h1{
 #fakeheader{
     background-color: #6666ff;
 }
+#fakeheader{
+    align-items: center;
+    }
+#fakeheader img{
+        height:80%;
+}
