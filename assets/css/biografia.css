@@ -1,0 +1,36 @@
+p{
+    text-align: justify;
+}
+main{
+    padding: 2vh;
+    width: 100%;
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+div#Cima{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+div#textoUp{
+    flex: 70%;
+}
+
+div#textoUp p, div#Baixo p{
+    margin-left: 5vw;
+}
+
+div#Baixo p{
+    margin-right:5vw
+}
+
+div#Imagem{
+    display: flex;
+    flex: 30%;
+    justify-content: spa;
+}
+div#Baixo{
+    display: flex;
+    width: 100%;
+}
