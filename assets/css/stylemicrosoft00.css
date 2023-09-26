@@ -188,7 +188,15 @@ p#texto_clock{
 
 .versoes img{
     height: 50%;
+    width: 50%;
+    margin-bottom: 50px;
 }
 #me{
     display: flex;
+}
+
+#conteudoCarro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
